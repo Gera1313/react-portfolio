@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/header';
 import Navigation from './Navigation';
-import AboutMe from './AboutMe'; // Navigation
-import Portfolio from './Portfolio'; // Navigation
-import Contact from './Contact'; // Navigation
-import Resume from './Resume'; // Navigation
+import AboutMe from './AboutMe'; // Navigation section
+import Portfolio from './Portfolio'; // Navigation section
+import Contact from './Contact'; // Navigation section
+import Resume from './Resume'; // Navigation section
 import './App.css'
 
 function App() {
