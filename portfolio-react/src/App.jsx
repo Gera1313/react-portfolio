@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/header';
-import Navigation from './Navigation';
-import AboutMe from './AboutMe'; // Navigation section
-import Portfolio from './Portfolio'; // Navigation section
-import Contact from './Contact'; // Navigation section
-import Resume from './Resume'; // Navigation section
+import Navigation from './components/navigation';
+import AboutMe from './components/aboutme'; // Navigation section
+import Portfolio from './components/portfolio'; // Navigation section
+import Contact from './components/contact'; // Navigation section
+import Resume from './components/resume'; // Navigation section
 import './App.css'
 
 function App() {
