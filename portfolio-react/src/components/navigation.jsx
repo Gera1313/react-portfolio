@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Navigation() {
@@ -9,13 +8,13 @@ function Navigation() {
                 <Link to="/">About Me</Link>
             </li>
             <li>
-                <Link to="/portfolio">Portfolio</Link>
+                <Link to="portfolio">Portfolio</Link>
             </li>
             <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="contact">Contact</Link>
             </li>
             <li>
-                <Link to="/resume">Resume</Link>
+                <Link to="resume">Resume</Link>
             </li>
         </ul>
     </nav>
