@@ -106,3 +106,5 @@ function Contact() {
   }
   
   export default Contact;
+
+  // sometime after the course, work in back-end to be able to accept messages and send to my email and such. A success message that goes to nowhere will do for now. 

@@ -1,6 +1,6 @@
 function Resume() {
   const downloadResume = () => {
-    const resumeFile = 'path to my resume here';
+    const resumeFile = 'assets/Git-Cheatsheet.pdf'; // will replace with actual resume when I am able to move it to this new computer and convert it to PDF format. In mean time added a placeholder PDF. 
     window.open(resumeFile, '_blank');
   };
 
@@ -53,4 +53,6 @@ function Resume() {
   );
 }
 
-export default Resume; // Export the component as the default
+export default Resume; 
+
+// Make sure to add actual resume in PDF format later on after the course. 
