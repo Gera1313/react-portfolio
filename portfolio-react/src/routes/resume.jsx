@@ -1,7 +1,18 @@
 function Resume() {
+  const downloadResume = () => {
+    const resumeFile = 'path to my resume here';
+    window.open(resumeFile, '_blank');
+  };
+
   return (
     <div className="resume-container">
       <h2>Resume</h2>
+
+      <section className="download-resume">
+        <h3>Download Resume:</h3>
+        <button onClick={downloadResume}><h3>Download My Resume</h3></button>
+      </section>
+
       <section className="education">
         <h3>Education</h3>
         <p>
