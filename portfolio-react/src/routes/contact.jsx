@@ -21,4 +21,4 @@ function Contact() {
     );
   }
   
-  export default Contact; // Export the component
+  export default Contact;
