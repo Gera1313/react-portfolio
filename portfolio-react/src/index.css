@@ -102,3 +102,15 @@ button:focus-visible {
   text-decoration: none;
   font-weight: bold;
 }
+
+/* Styling the portfolio projects */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+}
