@@ -16,7 +16,7 @@ function Footer() {
                 </a>
                 {/* <h2>Spotify</h2> */}
                 <a href="https://open.spotify.com/user/1213083432" target="_blank" rel="noopener noreferrer">
-                <i className="fa-brands fa-spotify"></i>
+                <i className="fas fa-music"></i>
                 </a>
             </div>
         </footer>
