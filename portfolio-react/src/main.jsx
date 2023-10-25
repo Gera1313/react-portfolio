@@ -9,6 +9,8 @@ import {
 import './index.css'
 import Aboutme from './routes/aboutme';
 import Portfolio from './routes/portfolio';
+import Contact from './routes/contact';
+import Resume from './routes/resume';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -19,8 +21,16 @@ const router = createBrowserRouter([
         element: <Aboutme/>
       },
       {
-        path:"portfolio",
+        path: "portfolio",
         element: <Portfolio/>
+      },
+      {
+        path: "contact",
+        element: <Contact />
+      },
+      {
+        path: "resume",
+        element: <Resume />
       }
     ]
   }

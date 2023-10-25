@@ -1,4 +1,5 @@
 import Header from "../components/header";
+// import GerardoImage from "../assets/images/IMG_9911.jpeg";
 
 const Aboutme = () => {
   return (
@@ -6,7 +7,7 @@ const Aboutme = () => {
         <Header/>
         <h2>About Me</h2>
         <div className="aboutme-content">
-          {/* <img src="./portfolio-react/src/assets/IMG_9911.jpeg" alt="Gerardo Perez" /> for some reason it won't load */}
+          {/* <img src={GerardoImage} alt="Gerardo Perez" /> */}
           <p>
             Hello, I am Gerardo Perez, a passionate web developer based in Texas. I have a strong passion for creating web applications that are not only functional but also visually appealing. With X number of years of experience in web development, I have worked on a wide range of projects, from [mention some here].
           </p>

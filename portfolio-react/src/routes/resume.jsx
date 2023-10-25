@@ -1,7 +1,7 @@
-// import React from 'react';
+import React from 'react';
 
-// function Resume() {
-//   // Component content
-// }
+function Resume() {
+  // Component content
+}
 
-// export default Resume; // Export the component as the default
+export default Resume; // Export the component as the default
