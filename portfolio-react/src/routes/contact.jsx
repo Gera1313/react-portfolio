@@ -8,6 +8,7 @@ function Contact() {
     message: '',
   });
   const [errors, setErrors] = useState({});
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
   // handle form submission
   const handleSubmit = (e) => {
