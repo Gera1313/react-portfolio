@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/header';
 import Navigation from './components/navigation';
-import Project from './components/project';
+// import Project from './components/project';
 import Footer from './components/footer';
 import AboutMe from './routes/aboutme'; // Navigation section
 import Portfolio from './routes/portfolio'; // Navigation section
