@@ -39,9 +39,10 @@ function Contact() {
 
     // if no errors
     if (Object.keys(newErrors).length === 0) {
-      // add submission logic here
+      // add submission logic here. Will do this at a later time after the course ends. 
       // For now, display the submitted data in the console
-      console.log('Submitted Data:', formData);
+      // console.log('Submitted Data:', formData);
+      setIsSubmitted(true);
     }
   };
 
@@ -54,6 +55,11 @@ function Contact() {
     return (
       <div>
         <h2>Contact Me</h2>
+        {isSubmitted ? ( 
+          <div className="success-message">
+            Thank you for your message! I will get back to you soon!
+            </div>
+        ) : (
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="name">Name</label>
@@ -93,6 +99,7 @@ function Contact() {
           </div>
           <button type="submit">Submit</button>
         </form>
+        )}
       </div>
     );
   }
