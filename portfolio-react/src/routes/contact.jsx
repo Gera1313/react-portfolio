@@ -16,15 +16,35 @@ function Contact() {
     // Validates form data
     const newErrors = {};
 
-    // Checks if name and email are empty
+    // Checks if name is empty
     if (!formData.name.trim()) {
       newErrors.name = 'Name is required';
     }
 
-    // 
+    // check if email is empty
+    if (!formData.email.trim()) {
+      newErrors.email = 'Email is required';
+    } else if (
+      !/^\S+@\S+\.\S+$/.test(formData.email) //Regular expression for email validation
+    ) {
+      newErrors.email = 'Invalid email address';
+    }
 
-  }
+    setErrors(newErrors);
 
+    // if no errors
+    if (Object.keys(newErrors).length === 0) {
+      // add submission logic here
+      // For now, display the submitted data in the console
+      console.log('Submitted Data:', formData);
+    }
+  };
+
+  // input changes
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
 
     return (
       <div>
