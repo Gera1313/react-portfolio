@@ -1,40 +1,40 @@
 function Portfolio() {
   const projects = [
     {
-      title: 'Project 1 here',
+      title: 'Vroomu',
       image: "./portfolio-react/assets/images/IMG_9911.jpeg",
-      githubLink: 'https://github.com/Gera1313',
+      githubLink: 'https://github.com/Gera1313/Vroomu-A-Vehicle-Service-Guide',
+      deployedLink: 'https://gera1313.github.io/Vroomu-A-Vehicle-Service-Guide/',
+    },
+    {
+      title: 'Logo Generator',
+      image: './portfolio-react/assets/images/IMG_9911.jpeg',
+      githubLink: 'https://github.com/Gera1313/10-logo-svg',
+      deployedLink: 'https://youtu.be/yTYZvp4YYHU',
+    },
+    {
+      title: 'ReadMe Guide Generator',
+      image: './portfolio-react/assets/images/IMG_9911.jpeg',
+      githubLink: 'https://github.com/Gera1313/9-readme-gen',
+      deployedLink: 'https://youtu.be/NOzqGhCcUIk',
+    },
+    {
+      title: 'First Portfolio',
+      image: './portfolio-react/assets/images/IMG_9911.jpeg',
+      githubLink: 'https://github.com/Gera1313/2-Gerardo-Portfolio',
       deployedLink: 'https://gera1313.github.io/2-Gerardo-Portfolio/',
     },
     {
-      title: 'Project 2 here',
+      title: 'Employee Tracker',
       image: './portfolio-react/assets/images/IMG_9911.jpeg',
-      githubLink: 'https://github.com/Gera1313',
-      deployedLink: 'https://gera1313.github.io/2-Gerardo-Portfolio/',
-    },
-    {
-      title: 'Project 3 here',
-      image: './portfolio-react/assets/images/IMG_9911.jpeg',
-      githubLink: 'https://github.com/Gera1313',
-      deployedLink: 'https://gera1313.github.io/2-Gerardo-Portfolio/',
-    },
-    {
-      title: 'Project 4 here',
-      image: './portfolio-react/assets/images/IMG_9911.jpeg',
-      githubLink: 'https://github.com/Gera1313',
-      deployedLink: 'https://gera1313.github.io/2-Gerardo-Portfolio/',
-    },
-    {
-      title: 'Project 5 here',
-      image: './portfolio-react/assets/images/IMG_9911.jpeg',
-      githubLink: 'https://github.com/Gera1313',
-      deployedLink: 'https://gera1313.github.io/2-Gerardo-Portfolio/',
+      githubLink: 'https://github.com/Gera1313/12-employee-tracker',
+      deployedLink: 'https://youtu.be/MP4zhBCbCsM?si=K5fLm4J1NEU6N-sD',
     },
     {
       title: 'Project 6 here',
       image: './portfolio-react/assets/images/IMG_9911.jpeg',
       githubLink: 'https://github.com/Gera1313',
-      deployedLink: 'https://gera1313.github.io/2-Gerardo-Portfolio/',
+      deployedLink: '',
     },
   ];
 
