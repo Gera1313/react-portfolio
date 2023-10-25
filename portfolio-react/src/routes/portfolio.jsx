@@ -52,9 +52,11 @@ function Portfolio() {
               <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">
                 Deployed App
               </a>
+              <p>
               <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
                 GitHub Repository
               </a>
+              </p>
             </div>
           </div>
         ))}
