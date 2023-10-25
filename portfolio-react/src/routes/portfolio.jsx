@@ -34,7 +34,7 @@ function Portfolio() {
       title: 'Project 6 here',
       image: './portfolio-react/assets/images/IMG_9911.jpeg',
       githubLink: 'https://github.com/Gera1313',
-      deployedLink: '',
+      deployedLink: 'https://gera1313.github.io/2-Gerardo-Portfolio/',
     },
   ];
 
@@ -49,13 +49,17 @@ function Portfolio() {
               <img src={project.image} alt={project.title} />
             </a>
             <div className="project-links">
+              {project.deployedLink && (
               <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">
                 Deployed App
               </a>
+              )}
               <p>
+              {project.githubLink && (
               <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
                 GitHub Repository
               </a>
+              )}
               </p>
             </div>
           </div>
