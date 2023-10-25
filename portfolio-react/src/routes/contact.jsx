@@ -9,9 +9,20 @@ function Contact() {
   });
   const [errors, setErrors] = useState({});
 
-  // form submission
+  // handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // Validates form data
+    const newErrors = {};
+
+    // Checks if name and email are empty
+    if (!formData.name.trim()) {
+      newErrors.name = 'Name is required';
+    }
+
+    // 
+
   }
 
 
