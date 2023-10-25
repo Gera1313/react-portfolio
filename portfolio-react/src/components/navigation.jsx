@@ -4,22 +4,22 @@ function Navigation() {
     return (
     <nav className="navigation">
         <div className="nav-link">
-            <Link to="/" className={location.pathname === '/' ? 'active' : ''}>
+            <Link to="/">
                 About Me
             </Link>
         </div>
         <div className="nav-link">
-            <Link to="/portfolio" className={location.pathname === '/portfolio' ? 'active' : ''}>
+            <Link to="/portfolio">
                 Portfolio
             </Link>
         </div>
         <div className="nav-link">
-            <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>
+            <Link to="/contact">
                 Contact
             </Link>
         </div>
         <div className="nav-link">
-            <Link to="/resume" className={location.pathname === '/resume' ? 'active' : ''}>
+            <Link to="/resume">
                 Resume
             </Link>
         </div>

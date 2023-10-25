@@ -91,6 +91,7 @@ button:focus-visible {
 /* Styling for the navigation */
 .navigation {
   display: flex;
+  justify-content: flex-end;
 }
 
 .nav-link {
