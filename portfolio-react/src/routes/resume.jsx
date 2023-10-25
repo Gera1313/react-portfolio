@@ -29,7 +29,7 @@ function Resume() {
           <br />
           September 2021 - Present
           <br />
-          - Work queues of bug reports generated no internal apps to ensure a strong final product for public release. 
+          - Work queues of bug reports generated in internal apps to ensure a strong final product for public release. 
           <br />
           - Develop test cases and scenarios in order to pinpoint the root cause of product bugs. 
         </p>
