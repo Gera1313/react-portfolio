@@ -80,3 +80,10 @@ button:focus-visible {
   margin: 10px;
   text-decoration: none;
 }
+
+/* Styling the profile image in aboutme */
+.aboutme-image {
+  width: 200px;
+  height: auto;
+  border-radius: 3%;
+}
