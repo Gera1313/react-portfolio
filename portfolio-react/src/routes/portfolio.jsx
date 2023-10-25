@@ -2,7 +2,7 @@ function Portfolio() {
   const projects = [
     {
       title: 'Project 1 here',
-      image: './portfolio-react/assets/images/IMG_9911.jpeg',
+      image: "./portfolio-react/assets/images/IMG_9911.jpeg",
       githubLink: 'https://github.com/Gera1313',
       deployedLink: 'https://gera1313.github.io/2-Gerardo-Portfolio/',
     },
