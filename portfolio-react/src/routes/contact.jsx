@@ -30,6 +30,11 @@ function Contact() {
       newErrors.email = 'Invalid email address';
     }
 
+    // Check if the message is empty
+    if (!formData.message.trim()) {
+      newErrors.message = 'Message is required';
+    }
+
     setErrors(newErrors);
 
     // if no errors
@@ -64,11 +69,27 @@ function Contact() {
           </div>
           <div className="form-group">
             <label htmlFor="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Your email" />
+            <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            placeholder="Your email"
+            value={formData.email}
+            onChange={handleInputChange}
+            />
+            {errors.email && <span className="error">{errors.email}</span>}
           </div>
           <div className="form-group">
             <label htmlFor="message">Message</label>
-            <textarea id="message" name="message" rows="4" placeholder="Your message"></textarea>
+            <textarea 
+            id="message" 
+            name="message" 
+            rows="4" 
+            placeholder="Your message"
+            value={formData.message}
+            onChange={handleInputChange}
+            />
+            {errors.message && <p className="error">{errors.message}</p>}
           </div>
           <button type="submit">Submit</button>
         </form>
