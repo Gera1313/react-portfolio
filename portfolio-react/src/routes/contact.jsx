@@ -49,10 +49,18 @@ function Contact() {
     return (
       <div>
         <h2>Contact Me</h2>
-        <form>
+        <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your name" />
+            <input 
+            type="text" 
+            id="name" 
+            name="name" 
+            placeholder="Your name"
+            value={formData.name}
+            onChange={handleInputChange}
+            />
+            {errors.name && <span className="error">{errors.name}</span>}
           </div>
           <div className="form-group">
             <label htmlFor="email">Email</label>
