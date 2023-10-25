@@ -19,12 +19,12 @@ function Contact() {
 
     // Checks if name is empty
     if (!formData.name.trim()) {
-      newErrors.name = 'Name is required';
+      newErrors.name = ' Name is required';
     }
 
     // check if email is empty
     if (!formData.email.trim()) {
-      newErrors.email = 'Email is required';
+      newErrors.email = ' Email is required';
     } else if (
       !/^\S+@\S+\.\S+$/.test(formData.email) //Regular expression for email validation
     ) {
@@ -33,7 +33,7 @@ function Contact() {
 
     // Check if the message is empty
     if (!formData.message.trim()) {
-      newErrors.message = 'Message is required';
+      newErrors.message = ' Message is required';
     }
 
     setErrors(newErrors);
@@ -63,7 +63,7 @@ function Contact() {
         ) : (
         <form onSubmit={handleSubmit}>
           <div className="form-group">
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name">Name </label>
             <input 
             type="text" 
             id="name" 
@@ -75,7 +75,7 @@ function Contact() {
             {errors.name && <span className="error">{errors.name}</span>}
           </div>
           <div className="form-group">
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email">Email </label>
             <input 
             type="email" 
             id="email" 
@@ -87,7 +87,7 @@ function Contact() {
             {errors.email && <span className="error">{errors.email}</span>}
           </div>
           <div className="form-group">
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">Message </label><br></br>
             <textarea 
             id="message" 
             name="message" 

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 function Navigation() {
     return (
-    <nav>
+    <nav className="navigation">
         <ul>
             <li>
                 <Link to="/">About Me</Link>
@@ -22,3 +22,25 @@ function Navigation() {
 }
 
 export default Navigation;
+
+// How I had it:
+// function Navigation() {
+//     return (
+//     <nav>
+//         <ul>
+//             <li>
+//                 <Link to="/">About Me</Link>
+//             </li>
+//             <li>
+//                 <Link to="portfolio">Portfolio</Link>
+//             </li>
+//             <li>
+//                 <Link to="contact">Contact</Link>
+//             </li>
+//             <li>
+//                 <Link to="resume">Resume</Link>
+//             </li>
+//         </ul>
+//     </nav>
+//     );
+// }

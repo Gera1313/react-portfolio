@@ -1,5 +1,4 @@
 import Header from "../components/header";
-// import Footer from "../components/footer";
 import GerardoImage from "/assets/images/IMG_9911.jpeg";
 
 const Aboutme = () => {
