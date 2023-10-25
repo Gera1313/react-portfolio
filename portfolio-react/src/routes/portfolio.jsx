@@ -1,37 +1,37 @@
 function Portfolio() {
   const projects = [
     {
-      title: 'Project 1 here'
+      title: 'Project 1 here',
       image: './portfolio-react/assets/images/IMG_9911.jpeg',
       githubLink: 'https://github.com/Gera1313',
       deployedLink: 'https://gera1313.github.io/2-Gerardo-Portfolio/',
     },
     {
-      title: 'Project 2 here'
+      title: 'Project 2 here',
       image: './portfolio-react/assets/images/IMG_9911.jpeg',
       githubLink: 'https://github.com/Gera1313',
       deployedLink: 'https://gera1313.github.io/2-Gerardo-Portfolio/',
     },
     {
-      title: 'Project 3 here'
+      title: 'Project 3 here',
       image: './portfolio-react/assets/images/IMG_9911.jpeg',
       githubLink: 'https://github.com/Gera1313',
       deployedLink: 'https://gera1313.github.io/2-Gerardo-Portfolio/',
     },
     {
-      title: 'Project 4 here'
+      title: 'Project 4 here',
       image: './portfolio-react/assets/images/IMG_9911.jpeg',
       githubLink: 'https://github.com/Gera1313',
       deployedLink: 'https://gera1313.github.io/2-Gerardo-Portfolio/',
     },
     {
-      title: 'Project 5 here'
+      title: 'Project 5 here',
       image: './portfolio-react/assets/images/IMG_9911.jpeg',
       githubLink: 'https://github.com/Gera1313',
       deployedLink: 'https://gera1313.github.io/2-Gerardo-Portfolio/',
     },
     {
-      title: 'Project 6 here'
+      title: 'Project 6 here',
       image: './portfolio-react/assets/images/IMG_9911.jpeg',
       githubLink: 'https://github.com/Gera1313',
       deployedLink: 'https://gera1313.github.io/2-Gerardo-Portfolio/',
@@ -55,11 +55,12 @@ function Portfolio() {
               <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
                 GitHub Repository
               </a>
+            </div>
           </div>
         ))}
       </section>
     </div>
-  )
+  );
 }
 
 export default Portfolio;
