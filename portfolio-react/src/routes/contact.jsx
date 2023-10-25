@@ -54,14 +54,15 @@ function Contact() {
   };
 
     return (
-      <div>
-        <h2>Contact Me</h2>
+      <div className="contact-container">
+        {/* <h2 className="contact-title">Contact Me</h2> */}
         {isSubmitted ? ( 
           <div className="success-message">
             Thank you for your message! I will get back to you soon!
             </div>
         ) : (
         <form onSubmit={handleSubmit}>
+          <h2 className="contact-title">Contact Me</h2>
           <div className="form-group">
             <label htmlFor="name">Name </label>
             <input 
