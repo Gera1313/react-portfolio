@@ -108,6 +108,7 @@ button:focus-visible {
 }
 
 /* Styling the portfolio projects */
+
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -137,4 +138,9 @@ button:focus-visible {
 
 .form-group {
   margin-bottom: 10px;
+}
+
+/* Styling for the resume page */
+.resume-container {
+  padding-left: 20px;
 }
