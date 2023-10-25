@@ -1,5 +1,18 @@
+import { useState } from "react";
+
+// Define variables for form data
 function Contact() {
-  
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+  const [errors, setErrors] = useState({});
+
+  // form submission
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  }
 
 
     return (
