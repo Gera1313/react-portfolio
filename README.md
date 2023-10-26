@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1b4a27fd-8e4e-439d-9827-7a7b26c1cebe/deploy-status)](https://app.netlify.com/sites/20-react-portfolio/deploys)
+
 # React: React Portfolio
 
 ## The Task
@@ -54,17 +56,6 @@ The following animation shows the web application's appearance and functionality
 
 ## Getting Started
 
-You’ll use `vite` to build your portfolio, which will include the following:
-
-* A single `Header` component that appears on multiple pages
-
-* A single `Navigation` component within the header that will use `Link` components from `react-router-dom` to conditionally render the different sections of your portfolio
-
-* A single `Project` component that will be used multiple times in the Portfolio section
-
-* A single `Footer` component that appears on multiple pages
-
-**Note**: Because this application doesn’t include a back end or connect to an API, the contact form doesn't need to save this information right now. You'll add back-end functionality in the next few weeks. In the meantime, consider including your email address and phone number on the Contact page.
 
 ### When you would like to scaffold a new `vite` application on your own, follow these steps
 
@@ -114,27 +105,10 @@ export default defineConfig({
 
 ### Projects
 
-For each project that is featured in your portfolio, include the following:
 
-* An image of the deployed application (either a short animated GIF or screenshot)
-
-* The title of the project
-
-* A link to the deployed application
-
-* A link to the corresponding GitHub repository
 
 ### Design
 
-As with the previous portfolio Challenge, remember that "good" design is subjective; however, your site should look polished. Here are a few guidelines on what that means:
-
-* Use mobile-first design.
-
-* Choose a color palette that distinguishes your site from the default Bootstrap theme and unstyled HTML sites. Refer to resources like [Coolors](https://coolors.co/) or another color scheme generator to help you create something that will stand out.
-
-* Ensure that the font size is large enough to read and that the colors don't cause eye strain.
-
-* Consider using animations and React component libraries. Note that this will not affect your grade, but it might impact how potential employers gauge your knowledge.
 
 ## Review
 
@@ -143,10 +117,6 @@ You are required to submit BOTH of the following for review:
 * The URL of the functional, deployed application.
 
 * The URL of the GitHub repository, with a unique name and a README that describes the project.
-
----
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
 
 React Router tutorial: https://reactrouter.com/en/main/start/tutorial#tutorial
 
