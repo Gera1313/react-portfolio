@@ -4,11 +4,7 @@
 
 ## The Task
 
-Being a web developer means being part of a community. I will need a place not only to share my projects while I am applying for jobs or working as a freelancer but also to share my work with other developers and collaborate on projects.
-
-My task is to create a portfolio using my new React skills, which will help set me apart from other developers whose portfolios don’t use the latest technologies.
-
-You’ll deploy this application to Netlify. Follow the instructions in the Git Guide or consult the [Docs on Netlify](https://vitejs.dev/guide/static-deploy.html#netlify) to create a build that you can deploy.
+The task is to create a portfolio using my new React skills, which will help set me apart from other developers whose portfolios don’t use the latest technologies.
 
 ## User Story
 
@@ -48,14 +44,19 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
 
-## Mock-Up
+## Usage
 
-The following animation shows the web application's appearance and functionality:
+The following images shows the web application's appearance and functionality:
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
+![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./portfolio-react/assets/images/aboutme.png)
 
-## Getting Started
+![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./portfolio-react/assets/images/contactme.png)
 
+![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./portfolio-react/assets/images/resume.png)
+
+![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./portfolio-react/assets/images/portfolio.png)
+
+## Getting Started (for my personal use)
 
 ### When you would like to scaffold a new `vite` application on your own, follow these steps
 
@@ -103,21 +104,20 @@ export default defineConfig({
 })
 ```
 
-### Projects
+## Installation
+N/A
 
+## Links
+[React Router tutorial](https://reactrouter.com/en/main/start/tutorial#tutorial)
 
+[GitHub Repo](https://github.com/Gera1313/20-react-portfolio)
 
-### Design
+[Deployed Site]()
 
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a README that describes the project.
-
-React Router tutorial: https://reactrouter.com/en/main/start/tutorial#tutorial
+## Credits
 
 Tutor: Alexis Gonzalez
+
+Module activities and Zoom recording
+
+Google
