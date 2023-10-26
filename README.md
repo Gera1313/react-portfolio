@@ -56,6 +56,12 @@ The following images shows the web application's appearance and functionality:
 
 ![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./portfolio-react/assets/images/portfolio.png)
 
+For some reason it is not displaying the site even though I followed the steps. I will have to keep researching but will turn in what I have now.
+
+![For some reason it is not displaying the site even though I followed the steps. I will have to keep researching but will turn in what I have now.](./portfolio-react/assets/images/Error.png)
+
+![For some reason it is not displaying the site even though I followed the steps. I will have to keep researching but will turn in what I have now.](./portfolio-react/assets/images/Screenshot%202023-10-25%20at%2010.51.11%20PM.png)
+
 ## Getting Started (for my personal use)
 
 ### When you would like to scaffold a new `vite` application on your own, follow these steps
@@ -112,7 +118,7 @@ N/A
 
 [GitHub Repo](https://github.com/Gera1313/20-react-portfolio)
 
-[Deployed Site]()
+[Deployed Site](https://20-react-portfolio.netlify.app/) 
 
 ## Credits
 
