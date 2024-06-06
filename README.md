@@ -110,12 +110,9 @@ export default defineConfig({
 })
 ```
 
-## Installation
-N/A
-
 ## Links
 [React Router tutorial](https://reactrouter.com/en/main/start/tutorial#tutorial)
 
 [GitHub Repo](https://github.com/Gera1313/react-portfolio)
 
-[Deployed Site](https://20-react-portfolio.netlify.app/) 
+[Deployed Site](https://react-portfolio.netlify.app/) 
