@@ -116,3 +116,7 @@ export default defineConfig({
 [GitHub Repo](https://github.com/Gera1313/react-portfolio)
 
 [Deployed Site](https://react-portfolio.netlify.app/) 
+
+## Licenses
+
+## [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
