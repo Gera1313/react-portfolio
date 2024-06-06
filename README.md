@@ -116,14 +116,6 @@ N/A
 ## Links
 [React Router tutorial](https://reactrouter.com/en/main/start/tutorial#tutorial)
 
-[GitHub Repo](https://github.com/Gera1313/20-react-portfolio)
+[GitHub Repo](https://github.com/Gera1313/react-portfolio)
 
 [Deployed Site](https://20-react-portfolio.netlify.app/) 
-
-## Credits
-
-Tutor: Alexis Gonzalez
-
-Module activities and Zoom recording
-
-Google
