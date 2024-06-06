@@ -1,8 +1,8 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1b4a27fd-8e4e-439d-9827-7a7b26c1cebe/deploy-status)](https://app.netlify.com/sites/20-react-portfolio/deploys)
 
-# React: React Portfolio
+# React Portfolio
 
-## The Task
+## My Project
 
 The task is to create a portfolio using my new React skills, which will help set me apart from other developers whose portfolios don’t use the latest technologies.
 
