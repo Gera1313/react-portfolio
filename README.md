@@ -4,7 +4,7 @@
 
 ## My Project
 
-The task is to create a portfolio using my new React skills, which will help set me apart from other developers whose portfolios don’t use the latest technologies.
+I have created a portfolio using my new React skills, which will help set me apart from other developers whose portfolios don’t use the latest technologies.
 
 ## User Story
 
