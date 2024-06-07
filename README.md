@@ -50,7 +50,7 @@ The following images shows the web application's appearance and functionality:
 
 ![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./assets/images/aboutme.png)
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./portfolio-react/assets/images/contactme.png)
+![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./assets/images/contactme.png)
 
 ![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./portfolio-react/assets/images/resume.png)
 
