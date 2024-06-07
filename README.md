@@ -48,7 +48,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 The following images shows the web application's appearance and functionality:
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./portfolio-react/assets/images/aboutme.png)
+![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./assets/images/aboutme.png)
 
 ![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./portfolio-react/assets/images/contactme.png)
 
