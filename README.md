@@ -54,7 +54,7 @@ The following images shows the web application's appearance and functionality:
 
 ![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./assets/images/resume.png)
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./portfolio-react/assets/images/portfolio.png)
+![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./assets/images/portfolio.png)
 
 For some reason it is not displaying the site even though I followed the steps. I will have to keep researching but will turn in what I have now.
 
