@@ -58,7 +58,7 @@ The following images shows the web application's appearance and functionality:
 
 For some reason it is not displaying the site even though I followed the steps. I will have to keep researching but will turn in what I have now.
 
-![For some reason it is not displaying the site even though I followed the steps. I will have to keep researching but will turn in what I have now.](./portfolio-react/assets/images/Error.png)
+![For some reason it is not displaying the site even though I followed the steps. I will have to keep researching but will turn in what I have now.](./assets/images/Error.png)
 
 ![For some reason it is not displaying the site even though I followed the steps. I will have to keep researching but will turn in what I have now.](./portfolio-react/assets/images/Screenshot%202023-10-25%20at%2010.51.11%20PM.png)
 
