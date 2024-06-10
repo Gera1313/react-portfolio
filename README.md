@@ -62,6 +62,10 @@ For some reason it is not displaying the site even though I followed the steps. 
 
 ![For some reason it is not displaying the site even though I followed the steps. I will have to keep researching but will turn in what I have now.](./assets/images/Screenshot%202023-10-25%20at%2010.51.11%20PM.png)
 
+## Notes
+
+June 9, 2024: Starting to work on this again to fix the issues associated with this project. 
+
 ## Getting Started (for my personal use)
 
 ### When you would like to scaffold a new `vite` application on your own, follow these steps
