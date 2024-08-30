@@ -64,7 +64,7 @@ For some reason it is not displaying the site even though I followed the steps. 
 
 ## Notes
 
-June 9, 2024: Starting to work on this again to fix the issues associated with this project. 
+August 29, 2024: Starting to work on this again to fix the issues associated with this project. 
 
 ## Getting Started (for my personal use)
 
