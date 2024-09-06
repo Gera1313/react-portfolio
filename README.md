@@ -65,6 +65,7 @@ For some reason it is not displaying the site even though I followed the steps. 
 ## Notes
 
 August 29, 2024: Starting to work on this again to fix the issues associated with this project. 
+September 6, 2024: Getting a 404 error now. 
 
 ## Getting Started (for my personal use)
 
